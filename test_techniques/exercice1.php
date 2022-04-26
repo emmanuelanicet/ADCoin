@@ -11,7 +11,7 @@ function sum_array( $no1, $no2 ) {
     }
     /* Optionnel  */
     if (!in_array($no1, $array)){
-        return "Le premier nombre entré n'est pas dans le tableau. ";
+        return "Le premier nombre n'est pas dans le tableau. ";
     }
 
     if( $no1 < $no2 ){
