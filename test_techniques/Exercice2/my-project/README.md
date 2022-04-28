@@ -27,6 +27,10 @@ Ensuite quelques variables s'imposent :
 Une fois copié, éditez votre ficher .env en prenant soin de bien renseigner les variables `DB_DATABASE`,`DB_PASSWORD`,`DB_USERNAME`: 
 ![configuration  env](https://user-images.githubusercontent.com/92017625/165823016-35d15574-5ca3-400f-bed2-1def07bef89c.png)
 
+Générez votre clé : 
+
+```php artisan key:generate```
+
 Vous pourrez après ça déployer votre serveur :
 ```php artisan serv```
 ![image](https://user-images.githubusercontent.com/92017625/165823369-007a3ea6-a848-4267-9f10-be8104c0d2ec.png)
