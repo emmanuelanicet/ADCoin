@@ -4,7 +4,7 @@
 
 - php 
 - composer 
-- -mysql
+- mysql
 
 ## Installation 
 
