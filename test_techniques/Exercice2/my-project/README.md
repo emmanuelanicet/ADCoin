@@ -63,7 +63,7 @@ Votre base donnée étant reliée vous pourrez enfin tester l'API.
 
 # Présentation API 
 
-Cette API reprend le concept d'un advisor avec l'enregistrement des menus, des utilisateur (authentification comprise) et des menus. 
+Cette API reprend le concept d'un advisor avec l'enregistrement des menus, des utilisateurs (authentification comprise) et des menus. 
 
 ## Présentation des routes
 
