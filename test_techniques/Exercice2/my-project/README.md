@@ -56,7 +56,7 @@ Vérifiez si elle est bien là :
 show databases;
 ```
 
-De retour sur le CLI au chemin dans le chemin de votre application, migrez vos tables : 
+De retour sur le CLI dans le chemin de votre application, migrez vos tables : 
 ```
 php artisan migrate
 ```
