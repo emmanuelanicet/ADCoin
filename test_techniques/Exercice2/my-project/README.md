@@ -31,7 +31,9 @@ Une fois copié, éditez votre ficher .env en prenant soin de bien renseigner le
 
 Générez votre clé : 
 
-```php artisan key:generate```
+```
+php artisan key:generate
+```
 
 Vous pourrez après ça déployer votre serveur :
 ```
