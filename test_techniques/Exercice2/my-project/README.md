@@ -65,7 +65,7 @@ Si jamais vous avez cette erreur:
 
 ![migrationfail](https://user-images.githubusercontent.com/92017625/165824589-68b0c637-8770-4d9e-a79d-f17ed4ef7811.png)
 
-Allez décommentez la ligne `extension=pdo_mysql` pour activer l'extension permettant de migrer vers mysql. 
+Allez décommentez la ligne `extension=pdo_mysql` du fichier `php.ini` dans votre dossier php pour activer l'extension permettant de migrer vers mysql. 
 ![extensionmysqlphp](https://user-images.githubusercontent.com/92017625/165824997-4226d054-3e3c-497b-9c16-c186b8b60cc0.png)
 
 De retour sur le CLI migrez de nouveau : 
