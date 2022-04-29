@@ -22,7 +22,9 @@ composer update --ignore-platform-reqs
 ```
 
 Ensuite quelques variables s'imposent : 
-```cp .env.example .env```
+```
+cp .env.example .env
+```
 
 Une fois copié, éditez votre ficher .env en prenant soin de bien renseigner les variables `DB_DATABASE`,`DB_PASSWORD`,`DB_USERNAME`: 
 ![configuration  env](https://user-images.githubusercontent.com/92017625/165823016-35d15574-5ca3-400f-bed2-1def07bef89c.png)
@@ -32,20 +34,30 @@ Générez votre clé :
 ```php artisan key:generate```
 
 Vous pourrez après ça déployer votre serveur :
-```php artisan serv```
+```
+php artisan serv
+```
 ![image](https://user-images.githubusercontent.com/92017625/165823369-007a3ea6-a848-4267-9f10-be8104c0d2ec.png)
 
 Allez à l'adresse `http://127.0.0.1:8000` sur votre navigateur: 
 ![image](https://user-images.githubusercontent.com/92017625/165823561-fc7db02c-36fb-47e2-bb6c-b131e104d3c3.png)
 
 Maintenant il faudra mettre en place votre base de donné qui portera le même nom donné dans `DB_DATABASE`. Connectez vous à mysql et créez la base de données: 
-```mysql -u <utilisateur> -p```
-```create database advisor;```
+```
+mysql -u <utilisateur> -p
+```
+```
+create database advisor;
+```
 Vérifiez si elle est bien là : 
-```show databases;```
+```
+show databases;
+```
 
 De retour sur le CLI au chemin dans le chemin de votre application, migrez vos tables : 
-```php artisan migrate```
+```
+php artisan migrate
+```
 
 Si jamais vous avez cette erreur: 
 
@@ -55,7 +67,9 @@ Allez décommentez la ligne `extension=pdo_mysql` pour activer l'extension perme
 ![extensionmysqlphp](https://user-images.githubusercontent.com/92017625/165824997-4226d054-3e3c-497b-9c16-c186b8b60cc0.png)
 
 De retour sur le CLI migrez de nouveau : 
-```php artisan migrate```
+```
+php artisan migrate
+```
 
 ![image](https://user-images.githubusercontent.com/92017625/165825294-a8692222-49b8-4232-86ba-3d5c997484b7.png)
 
